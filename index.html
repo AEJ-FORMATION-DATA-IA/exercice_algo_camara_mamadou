@@ -109,24 +109,23 @@
         <p> 
           REPONSE<br>
           <section class="reponse">
-          Var {A, B, C} : reels<br>,<br>
+          Var {A, B, C} : reels<br>
           DEBUT<br>
-             Afficher ("SAISIR LA VALEUR DE  A") ;<br>
-              Saisir (A) ;<br>,<br>
-             
-             Afficher ("SAISIR LA VALEUR DE  B") ;<br>
-              Saisir (B) ;<br>,<br>
+              ecrire ("SAISIR LA VALEUR DE  A") ;<br>
+              lire (A) ;<br>
+    
+             ecrire ("SAISIR LA VALEUR DE  B") ;<br>
+             lire (B) ;<br>
               
-             Afficher ("SAISIR LA VALEUR DE  C") ;<br>
-             Saisir (C) ; <br>
-             CALCUL<br>
-              C = A<br>
-              A = B<br>
-              B = C<br>,<br>
+             ecrire ("SAISIR LA VALEUR DE  C") ;<br>
+             lire (C) ; <br>
+              C -> A<br>
+              A -> B<br>
+              B -> C<br>
               
-            Afficher (A, B)<br>
+            ecrire (A, B);<br>
           
-          FIN<br>,<br>
+          FIN<br>
         </section>
 
         </p>
@@ -140,25 +139,26 @@
         <P>
           <section class="reponse">
           REPONSE<br>
-          Var {A, B, C, D} : reels<br>,<br>
+          Var {A, B, C, D} : reels<br>
+             
           DEBUT<br>
-             Afficher ("SAISIR LA VALEUR DE  A") ;<br>
-              Saisir (A) ;<br>,<br>
+             ecrire ("SAISIR LA VALEUR DE  A") ;<br>
+              lire (A) ;<br>
              
-             Afficher ("SAISIR LA VALEUR DE  B") ;<br>
-              Saisir (B) ;<br>,<br>
+             ecrire ("SAISIR LA VALEUR DE  B") ;<br>
+              lire (B) ;<br>
               
-             Afficher ("SAISIR LA VALEUR DE  C") ;<br>
-             Saisir (C) ; <br>,<br>
+             ecrire ("SAISIR LA VALEUR DE  C") ;<br>
+             lire (C) ; <br>
              
-              D = C<br>
-              C = B<br>
-              B = A<br>
-              A = D<br>,<br>
+              D -> C<br>
+              C -> B<br>
+              B -> A<br>
+              A -> D<br>
              
-             Afficher (A, B, C)<br>
+             ecrire (A, B, C);<br>
           
-          FIN<br>,<br>
+          FIN<br>
         </section>
         </P>
 
